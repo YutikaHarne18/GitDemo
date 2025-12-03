@@ -32,7 +32,7 @@ public class abc {
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 
         
-
+        System.out.println("Hi");
         
 
      List<WebElement> links=   driver.findElements(By.cssSelector("li[class='gf-li'] a"));
@@ -64,6 +64,8 @@ public class abc {
 
 		
 		return null;
+		
+		
 
 	}
 }
