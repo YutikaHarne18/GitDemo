@@ -34,7 +34,6 @@ public class abc {
         
         System.out.println("Hi Yutika");
         System.out.println("Hi Kuber");
-        System.out.println("Hi All");
         
 
      List<WebElement> links=   driver.findElements(By.cssSelector("li[class='gf-li'] a"));
